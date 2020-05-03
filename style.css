@@ -1,0 +1,36 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px;
+    direction: rtl;    
+}
+.header {
+    text-align: center;
+}
+.header-ar {    
+    font-family: 'Al Qalam Quran Majeed',Arial, Helvetica, sans-serif;
+}
+.header-ur {
+    font-family: 'Payami Nastaleeq',Arial, Helvetica, sans-serif;
+}
+.quran {    
+    text-align: center;    
+}
+.quran table {
+    text-align: justify;
+    text-align-last: justify;
+    -moz-text-align-last: justify;
+    -ms-text-align-last: justify;         
+    display: table;
+    margin: 0 auto;
+    direction: rtl;
+}
+.quran table tr:nth-child(odd) {
+    font-family: 'Al Qalam Quran Majeed',Arial, Helvetica, sans-serif;
+}
+.quran table tr:nth-child(even) {
+    font-family: 'Payami Nastaleeq',Arial, Helvetica, sans-serif;
+    background: #e2efd9;
+}
